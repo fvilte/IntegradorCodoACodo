@@ -1,0 +1,270 @@
+/*HEADER*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(60, 60, 64);
+    position: fixed;
+    width: 100%;
+}
+
+header .logo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+header .logo h2{
+    margin-top: 30px;
+    color: white;
+}
+
+header .logo .img-logo{
+    width: 180px;
+    height: 80px;
+}
+
+header .nav{
+    margin-top: 30px;
+    margin-left: 700px;
+}
+
+header .nav nav ul li{
+    display: inline;
+    text-align: center;
+}
+
+header .nav nav ul li a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: white;
+}
+
+/*MAIN*/
+
+main .div1 img{
+   z-index: -10;
+}
+
+main .card-float{
+    margin-top: -680px;
+    z-index: 1;
+    margin-right: 100px;
+    color: white;
+    text-align: right;
+    font-size: 18px;
+}
+
+main .botones-main{
+    margin-left: 1520px;
+}
+
+main .botones-main a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/*SECTION*/
+
+main section .container{
+    margin-top: 700px;
+}
+
+main section .container .cardf{
+    max-height: 300px;
+    min-height: 300px;
+
+}
+
+main section .p-s2{
+    margin-top: 550px;
+}
+
+main section .p-s2 h6{
+    text-align: center;
+}
+
+main section .p-s2 h1{
+    text-align: center;
+}
+
+main section .container{
+    margin-top: 45px;
+    margin-left: 350px;
+    
+}
+
+main section .container .col-3{
+    margin: 0 40px;
+    border: 1px solid gray;
+    
+}
+
+/*SECTION S3*/
+
+section .mb-33{
+    margin-top: 50px;
+    z-index: -1;
+}
+
+section .col-md-8{
+    color: white;
+    background-color: #353A40;
+    display: flex;
+    flex-direction: column;
+}
+
+section .col-md-3 .card-body button a{
+    text-decoration: none;
+    color: white;   
+}
+
+/*SECTION S4*/
+
+section form{
+    margin-left: 550px;
+    max-width: 800px;
+    margin-top: 50px;
+}
+
+section form label{
+    text-align: center;
+}
+
+section form button{
+    width: 800px;
+}
+
+/*FOOTER*/
+
+footer .footer-buttons{
+    width: 100%;
+    height: 120px;
+    margin-top: 50px;
+    background-color: rgb(46, 58, 78);
+}
+
+footer .footer-buttons nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+footer .footer-buttons nav ul li{
+    padding: 50px;
+}
+
+footer .footer-buttons nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/*COMPRAR TICKET: NAV*/
+
+.comprarT{
+    position: fixed;
+    margin-top: -100px;
+}
+
+.card-ticket{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+.mb-3{
+    width: 16%;
+    margin: 0 40px;
+    text-align: center;
+}
+
+.mb-3 .card-body{
+    background-color: white;
+    color: black;
+}
+
+.mb-3 .card-header{
+    font-size: 25px;
+}
+
+.mb-3 .card-title{
+    font-size: 25px;
+}
+
+.mb-3 .card-body .card-gray{
+    color: gray;
+}
+
+.texto-compra{
+    text-align: center;
+}
+
+/*FORMULARIO*/
+
+.formulario{
+    width: 40%;
+    margin-left: 580px;
+}
+
+.form-select{
+    display: flex;
+    flex-direction: row;
+}
+
+.label-t{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(197, 227, 245);
+    margin-top: 10px;
+    border: 1px solid rgb(176, 220, 248);
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.label-t p{
+    color: rgb(0, 0, 149);
+    text-align: left;
+}
+
+.d-md-block{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+}
+
+.t-success{
+    width: 49%;
+}
+
+/*FOOTER*/
+
+.footer-buttons-T{
+    width: 100%;
+    height: 120px;
+    margin-top: 105px;
+    background-color: rgb(46, 58, 78);
+}
+
+footer .footer-buttons-T nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+footer .footer-buttons-T nav ul li{
+    padding: 50px;
+}
+
+footer .footer-buttons-T nav ul li a{
+    text-decoration: none;
+    color: white;
+}
